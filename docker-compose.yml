@@ -39,7 +39,7 @@ services:
       - '6379:6379'
   db:
     container_name: sentry-postgres
-    image: postgres:1.2.5
+    image: postgres:1.3.5
     environment:
       POSTGRES_USER: sentry
       POSTGRES_PASSWORD: secret
