@@ -13,7 +13,7 @@ services:
     tty: true
     stdin_open: true
   cron:
-    container_name: sentry-cron
+    container_name: sedntry-cron
     image: sentry
     command: run cron
     env_file:
