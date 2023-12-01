@@ -32,7 +32,7 @@ services:
       - redis
   redis:
     container_name: sentry-redis
-    image: redis:123
+    image: redis:1223
     volumes:
       - redis-data:/data
     ports:
